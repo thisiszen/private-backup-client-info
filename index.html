@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>rclone personal encrypted backups</title><style>body{font:17px/1.6 system-ui,sans-serif;max-width:760px;margin:64px auto;padding:0 24px;color:#20242a;background:#fff}h1,h2{line-height:1.2}a{color:#164b94}footer{margin-top:48px;border-top:1px solid #ddd;padding-top:16px;font-size:14px}</style></head>
+<body><main><h1>rclone personal encrypted backups</h1>
+<p>A private backup utility for its owner's personal use. It runs locally and uses rclone to store encrypted backups in a dedicated folder in the owner's Google Drive.</p>
+<h2>Google Drive access</h2>
+<p>The utility requests the limited <code>drive.file</code> permission. This allows it to create and manage files that it creates or that the owner explicitly opens with it. It does not request access to all files in Google Drive.</p>
+<p>Backup contents are encrypted locally before upload. The utility uses file metadata and reads uploaded encrypted files to check that backups were transferred correctly. Recovery keys remain separate from the uploaded backups.</p>
+<p>This is a personal utility, not a public backup service. Access can be revoked through the owner's Google Account connections settings.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+<h2 id="terms">Terms of use</h2><p>This utility is intended only for the account owner's personal backups. Use of Google Drive remains subject to Google's applicable terms. The owner controls backup retention and may revoke the utility's access at any time.</p>
+</main><footer>This page describes the utility. It contains no backup files, credentials or recovery keys.</footer></body></html>
